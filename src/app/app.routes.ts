@@ -5,6 +5,7 @@ import { InternshipsComponent } from './components/Internships/internships/inter
 import { LoginComponent } from './components/Login/login/login.component';
 import { IndexComponent } from './components/Index/index/index.component';
 import { NewsComponent } from './components/News/news/news.component';
+import { AddPostComponent } from './components/add-post/add-post.component';
 
 export const routes: Routes = [
     {
@@ -30,5 +31,9 @@ export const routes: Routes = [
     {
         path: 'Login',
         component: LoginComponent
+    },
+    {
+        path: 'AddPost',
+        component: AddPostComponent
     }
 ];
